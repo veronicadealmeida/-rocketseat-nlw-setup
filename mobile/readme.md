@@ -1,9 +1,5 @@
 # PLUGINS
 
-    ```
-
-    ```
-
 # PREPARAÇÃO DO AMBIENTE
 
 - Instalar o Expo Go no celular (é um client do Expo Go de desenvolvimento)

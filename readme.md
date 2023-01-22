@@ -4,6 +4,6 @@ Aplicativo web e mobile para controle de hábitos.
 
 ## Documentações:
 
-- [Mobile - reade.me](./mobile/readme.md)
-- [Server - reade.me](./server/readme.md)
-- [Web - reade.me](./web/readme.md)
+- [Mobile](./mobile/readme.md)
+- [Server](./server/readme.md)
+- [Web](./web/readme.md)
