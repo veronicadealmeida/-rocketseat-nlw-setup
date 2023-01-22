@@ -149,3 +149,9 @@ npm run dev
 - CORS: determina quem pode acessar os dados do backend
 
 - seed: é um populador de bando de dados
+
+- zod: 
+
+  ```
+  npm i zod
+  ```
