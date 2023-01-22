@@ -1,5 +1,9 @@
 # BACKEND
 
+```
+npm run dev
+```
+
 ## CONFIGURAÇÃO DO AMBIENTE
 
 1. Instalar NVM (para gerenciar versões diferentes do node)
