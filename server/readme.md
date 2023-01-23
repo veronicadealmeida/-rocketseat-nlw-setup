@@ -1,5 +1,9 @@
 # BACKEND
 
+```
+npm run dev
+```
+
 ## CONFIGURAÇÃO DO AMBIENTE
 
 1. Instalar NVM (para gerenciar versões diferentes do node)
@@ -68,6 +72,42 @@
 
 1. Prisma
 
+   - para visualizar o relacionamento das tabelas
+
+     - instalar
+
+       ```
+       npm i -D prisma-erd-generator @mermaid-js/mermaid-cli
+       ```
+
+     - Adicionar em schema.prisma
+       ```
+       generator erd {
+           provider = "prisma-erd-generator"
+       }
+       ```
+     - Para gerar o model ( será gerado no arquivo ERD.svg )
+       ```
+       npx prisma generate
+       ```
+
+2. Seed
+
+   - criar um arquivo dentro da pasta prisma seed.ts
+
+   - no package.json incluir
+
+     ```
+     "prisma": {
+          "seed": "tsx prisma/seed.ts"
+      }
+     ```
+
+   - para executar o seed
+     ```
+     npx prisma db seed
+     ```
+
 ## NOTAS
 
 - node: permite utilizar javascript no back-end (tirou V8 do chrome e colocou no node)
@@ -107,3 +147,11 @@
   ```
 
 - CORS: determina quem pode acessar os dados do backend
+
+- seed: é um populador de bando de dados
+
+- zod: 
+
+  ```
+  npm i zod
+  ```
