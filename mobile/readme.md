@@ -42,3 +42,10 @@
   - disponibiliza emulador no celular através de um qrcode
 
 - Pode-se utilizar o celular ou um emulador para o desenvolvimento
+
+- Nativewind: permite estilização na aplicação mobile
+
+- <> : é conhecido como fragment para envolver e devolver um único component
+
+- svg: biblioteca para trabalhar com arquivos svg
+- react-native-svg-tranformer: para trabalhar con svg como componente
